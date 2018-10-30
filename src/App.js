@@ -59,7 +59,7 @@ class App extends Component {
         </div>
 
         <div className="footer">
-          <div></div>
+          <img src/>
           <div>Made with &#10084; by myself. <br />
           Special thanks to Markus Mälzer, who helped me with coding my Portfolio.
           </div>
