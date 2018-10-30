@@ -3,6 +3,9 @@ import cursorGreen from './assets/cursor_green.png';
 import cursorRed from './assets/cursor_red.png';
 import cursorBlue from './assets/cursor_blue.png';
 import lukasmussnig from './assets/lukasmussnig.jpg';
+import twitterlogo from './assets/twitter-logo.svg';
+import instagramlogo from './assets/instagram-logo.svg';
+import linkedinlogo from './assets/linkedin-logo.svg';
 
 class App extends Component {
   render() {
@@ -16,10 +19,10 @@ class App extends Component {
             <div className="subtitle st1">LMDSG
               <div className="subtitle st2">Lukas Mussnig<br />Design</div>
             </div>
-          </div>
+        </div>
 
-          <div className="arrow">
-          </div>
+        <div className="arrow">
+        </div>
 
         <div className="lmdsg">
         </div>
@@ -49,13 +52,14 @@ class App extends Component {
 
         <div className="social">
           <div className="scenter">
-            <div className="c c1"><a href="" alt=""><img /></a></div>
-            <div className="c c2"><a href="" alt=""><img /></a></div>
-            <div className="c c3"><a href="" alt=""><img /></a></div>
+            <div className="c c1"><a href="https://twitter.com/lukas_mussnig" alt="Twitter" target="_blank" rel="noopener noreferrer"><img src={twitterlogo} /></a></div>
+            <div className="c c2"><a href="https://www.instagram.com/yylukasyy/" alt="Instagram" target="_blank" rel="noopener noreferrer"><img src={instagramlogo} /></a></div>
+            <div className="c c3"><a href="https://www.linkedin.com/in/lukas-mussnig-60334114a/" alt="LinkedIn" target="_blank" rel="noopener noreferrer"><img src={linkedinlogo} /></a></div>
           </div>
         </div>
 
         <div className="footer">
+          <div></div>
           <div>Made with &#10084; by myself. <br />
           Special thanks to Markus Mälzer, who helped me with coding my Portfolio.
           </div>
