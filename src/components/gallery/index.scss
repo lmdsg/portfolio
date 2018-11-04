@@ -58,7 +58,7 @@ body {
       transform-origin: left top;
       max-width: 100%;
       transition:
-        transform 0.5s ease 0s,
+        transform 0.5s ease 0.15s,
         opacity 0.2s ease;
     }
 
