@@ -294,7 +294,7 @@ $cirColors: var(--green) var(--red) var(--blue);
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .c {
     width: 80px;
     height: 80px;
@@ -326,6 +326,31 @@ $cirColors: var(--green) var(--red) var(--blue);
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 450px) {
+  .subtitle {
+    font-size: 3em;
+  }
 
+  .thisisme {
+    width: 210px;
+    height: 210px;
+    top: 5%;
+  }
+
+  .introtxt {
+    width: 275px;
+    top: 40%;
+    text-align: justify;
+  }
+
+  .circles {
+    top: 90%;
+    width: 80vw;
+  }
+
+  .social {
+    .scenter {
+      width: 80vw;
+    }
+  }
 }
